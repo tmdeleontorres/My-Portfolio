@@ -457,6 +457,12 @@ footer {
     text-align: left;
 }
 
+.resume-section p {
+    color: var(--text-muted);
+    font-size: 0.9rem;
+    line-height: 1.6;
+}
+
 .resume-section h3 {
     color: var(--accent);
     font-size: 1.1rem;
@@ -498,6 +504,37 @@ footer {
 
 .resume-right .btn {
     margin-top: 1rem;
+}
+
+.experience-item {
+    margin-bottom: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid var(--border);
+}
+
+.experience-item:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.experience-item h4 {
+    font-size: 1rem;
+    color: var(--text-light);
+    margin-bottom: 0.3rem;
+}
+
+.experience-item .exp-subtitle {
+    color: var(--accent);
+    font-size: 0.85rem;
+    margin-bottom: 0.5rem;
+}
+
+.experience-item p:last-child {
+    color: var(--text-muted);
+    font-size: 0.9rem;
+    line-height: 1.6;
+    margin-bottom: 0;
 }
 
 .social-links {
