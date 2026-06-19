@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>QA Engineer Portfolio</title>
+    <title>Trissia's Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -38,9 +38,9 @@
         <h2 class="section-title">About Me</h2>
         <div class="about-content">
             <div class="about-text">
-                <p>Hello, I'm Trissia. I'm a Mobile Application QA Tester and a freelance graphic artist living in Philippines. I am a fan of design, technology, and arts.</p>
-                <p>I have an experience in Software Quality Assurance Manual Testing, a detail-oriented professional that identifies bugs and issues, executing test cases, and ensuring app quality across iOS and Android platforms.</p>
-                <p>In my freelancing job as a graphic artist, I can help you with your digital creative ideas come to life.</p>
+                <p>Hello, I'm Trissia. I'm a Mobile Application QA Tester and a freelance graphic artist living in Philippines. I am a fan of art and technology.</p>
+                    <p>Experienced in Software Quality Assurance Manual Testing, and a detail-oriented professional that identifies bugs and issues, executing test cases, and ensuring the app's quality across iOS and Android platforms.</p>
+                    <p>In my freelancing job as a graphic artist, I can help you with your digital creative ideas come to life.</p>
                 <a href="https://www.notion.so/My-Portfolio-29a361c3fe98810abd79c4e6f32ed09d?source=copy_link" target="_blank" class="btn resume-btn">View My Resume</a>
             </div>
             <div class="about-details">
@@ -72,23 +72,19 @@
             <div class="skill-card">
                 <h3>Automation Testing</h3>
                 <ul>
-                    <li>Selenium WebDriver</li>
-                    <li>TestNG / JUnit</li>
-                    <li>Basic Java/Python Scripting</li>
+                    <li>Selenium WebDriver (Basics)</li>
+                    <li>Maestro (Basics)</li>
                     <li>Postman (API Testing)</li>
-                    <li>Cypress (Basic)</li>
-                    <li>CI/CD Integration Basics</li>
                 </ul>
             </div>
             <div class="skill-card">
                 <h3>Tools & Technologies</h3>
                 <ul>
-                    <li>JIRA / Bugzilla / Trello</li>
+                    <li>JIRA / Kanboard</li>
                     <li>MySQL (Basic Queries)</li>
                     <li>Git / GitHub</li>
-                    <li>Browser DevTools</li>
-                    <li>Charles Proxy / Fiddler</li>
-                    <li>TestRail / Zephyr</li>
+                    <li>Browser TestingTools</li>
+                    <li>Open code (Ai Assisstant)</li>
                 </ul>
             </div>
             <div class="skill-card">
@@ -100,12 +96,14 @@
                     <li>Team Collaboration</li>
                     <li>Problem Solving</li>
                     <li>Time Management</li>
+                    <li>Creativity</li>
                 </ul>
             </div>
         </div>
     </section>
 
     <!-- Experience Section -->
+    <!--
     <section id="experience" class="experience">
         <h2 class="section-title">Work Experience</h2>
         <div class="timeline">
@@ -135,6 +133,7 @@
             </div>
         </div>
     </section>
+    -->
 
     <!-- Projects Section -->
     <section id="projects" class="projects">
@@ -173,6 +172,70 @@
                     <span>Git</span>
                 </div>
             </a>
+            <div class="project-card project-slideshow" onmouseenter="startSlideshow(this)" onmouseleave="stopSlideshow(this)">
+                <div class="card-content">
+                    <h3>UI/UX Projects</h3>
+                    <p class="project-role">Role: Graphic Artist</p>
+                    <p>Showcasing my digital creative designs including mobile app interfaces, website mockups, and dashboard prototypes.</p>
+                    <div class="project-tools">
+                        <span>Figma</span>
+                        <span>Adobe XD</span>
+                        <span>Canva</span>
+                        <span>Photoshop</span>
+                    </div>
+                </div>
+                <div class="slideshow-container">
+                    <div class="slide fade">
+                        <div class="slide-placeholder">Project 1</div>
+                        <div class="slide-caption">Figma Mobile App Design</div>
+                    </div>
+                    <div class="slide fade">
+                        <div class="slide-placeholder" style="background: #4a1a2e;">Project 2</div>
+                        <div class="slide-caption">Website Redesign Concept</div>
+                    </div>
+                    <div class="slide fade">
+                        <div class="slide-placeholder" style="background: #2a4a1a;">Project 3</div>
+                        <div class="slide-caption">Dashboard UI Prototype</div>
+                    </div>
+                </div>
+                <div class="dots-container">
+                    <span class="dot" onclick="currentSlide(this, 1)"></span>
+                    <span class="dot" onclick="currentSlide(this, 2)"></span>
+                    <span class="dot" onclick="currentSlide(this, 3)"></span>
+                </div>
+            </div>
+            <div class="project-card project-slideshow" onmouseenter="startSlideshow(this)" onmouseleave="stopSlideshow(this)">
+                <div class="card-content">
+                    <h3>Digital Products</h3>
+                    <p class="project-role">Role: Graphic Artist</p>
+                    <p>A collection of digital products including social media templates, branding kits, and print-ready designs.</p>
+                    <div class="project-tools">
+                        <span>Canva</span>
+                        <span>Photoshop</span>
+                        <span>Illustrator</span>
+                        <span>Procreate</span>
+                    </div>
+                </div>
+                <div class="slideshow-container">
+                    <div class="slide fade">
+                        <div class="slide-placeholder" style="background: #1a3a4a;">Product 1</div>
+                        <div class="slide-caption">Social Media Templates</div>
+                    </div>
+                    <div class="slide fade">
+                        <div class="slide-placeholder" style="background: #4a2a1a;">Product 2</div>
+                        <div class="slide-caption">Branding Kit</div>
+                    </div>
+                    <div class="slide fade">
+                        <div class="slide-placeholder" style="background: #2a1a4a;">Product 3</div>
+                        <div class="slide-caption">Print-ready Posters</div>
+                    </div>
+                </div>
+                <div class="dots-container">
+                    <span class="dot" onclick="currentSlide(this, 1)"></span>
+                    <span class="dot" onclick="currentSlide(this, 2)"></span>
+                    <span class="dot" onclick="currentSlide(this, 3)"></span>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -180,29 +243,22 @@
     <section id="contact" class="contact">
         <h2 class="section-title">Contact Me</h2>
         <div class="contact-content">
-            <form class="contact-form">
-                <input type="text" placeholder="Your Name" required>
-                <input type="email" placeholder="Your Email" required>
-                <input type="text" placeholder="Subject" required>
-                <textarea placeholder="Your Message" rows="5" required></textarea>
-                <button type="submit" class="btn">Send Message</button>
-            </form>
             <div class="contact-info">
                 <div class="info-item">
                     <h4>Email</h4>
-                    <p>johndoe@email.com</p>
+                    <p>tmdeleontorres@gmail.com</p>
                 </div>
                 <div class="info-item">
                     <h4>Phone</h4>
-                    <p>+63 912 345 6789</p>
+                    <p>+63 9271601106</p>
                 </div>
                 <div class="info-item">
                     <h4>LinkedIn</h4>
-                    <p>linkedin.com/in/johndoe</p>
+                    <p>www.linkedin.com/in/trissia-mae-torres-442885276</p>
                 </div>
                 <div class="info-item">
                     <h4>GitHub</h4>
-                    <p>github.com/johndoe</p>
+                    <p>github.com/tmdeleontorres</p>
                 </div>
             </div>
         </div>
@@ -212,6 +268,55 @@
     <footer>
         <p>&copy; 2026 Trissia. All rights reserved.</p>
     </footer>
+
+<script>
+    function getSlides(card) {
+        return card.querySelectorAll(".slide");
+    }
+
+    function getDots(card) {
+        return card.querySelectorAll(".dot");
+    }
+
+    function showSlide(card, index) {
+        let slides = getSlides(card);
+        let dots = getDots(card);
+        if (index > slides.length) index = 1;
+        if (index < 1) index = slides.length;
+        for (let s of slides) s.style.display = "none";
+        for (let d of dots) d.className = d.className.replace(" active", "");
+        slides[index - 1].style.display = "block";
+        dots[index - 1].className += " active";
+        card.dataset.index = index;
+    }
+
+    function changeSlide(el, n) {
+        let card = el.closest(".project-slideshow");
+        let idx = parseInt(card.dataset.index || 1) + n;
+        showSlide(card, idx);
+    }
+
+    function currentSlide(el, n) {
+        let card = el.closest(".project-slideshow");
+        showSlide(card, n);
+    }
+
+    function startSlideshow(card) {
+        showSlide(card, parseInt(card.dataset.index || 1));
+        if (card.intervalId) clearInterval(card.intervalId);
+        card.intervalId = setInterval(function() {
+            let idx = parseInt(card.dataset.index || 1) + 1;
+            showSlide(card, idx);
+        }, 2000);
+    }
+
+    function stopSlideshow(card) {
+        if (card.intervalId) {
+            clearInterval(card.intervalId);
+            card.intervalId = null;
+        }
+    }
+</script>
 
 </body>
 </html>
